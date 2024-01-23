@@ -5,7 +5,7 @@ metadata:
 spec:
   accessModes:
   - ReadWriteOnce   # ReadWriteOnce, ReadOnlyMany or ReadWriteMany
-  storageClassName: azuredisk-premium-retain
+  storageClassName: default
   resources:
     requests:
-      storage: 4Gi
+      storage: 12Gi
